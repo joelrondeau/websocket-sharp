@@ -818,7 +818,7 @@ namespace WebSocketSharp.Server
     ///   </para>
     /// </exception>
     /// <exception cref="InvalidOperationException">
-    /// The Close method is not available when the session has not started yet.
+    /// This method is not available when the session has not started yet.
     /// </exception>
     protected void Close (ushort code, string reason)
     {
