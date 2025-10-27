@@ -1150,7 +1150,7 @@ namespace WebSocketSharp.Server
     /// The size of <paramref name="message"/> is greater than 125 bytes.
     /// </exception>
     /// <exception cref="InvalidOperationException">
-    /// The Ping method is not available when the session has not started yet.
+    /// This method is not available when the session has not started yet.
     /// </exception>
     protected bool Ping (string message)
     {
