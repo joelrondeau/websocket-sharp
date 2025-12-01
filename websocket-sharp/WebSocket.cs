@@ -3559,7 +3559,7 @@ namespace WebSocketSharp
       }
 
       if (_retryCountForConnect >= _maxRetryCountForConnect) {
-        var msg = "The Connect method is not available.";
+        var msg = "Reconnection attempts have failed.";
 
         throw new InvalidOperationException (msg);
       }
