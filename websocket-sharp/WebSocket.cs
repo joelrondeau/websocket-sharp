@@ -3693,7 +3693,7 @@ namespace WebSocketSharp
     public void Send (byte[] data)
     {
       if (_readyState != WebSocketState.Open) {
-        var msg = "The Send method is not available.";
+        var msg = "The current state of the interface is not Open.";
 
         throw new InvalidOperationException (msg);
       }
