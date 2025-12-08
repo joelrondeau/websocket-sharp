@@ -3730,8 +3730,8 @@ namespace WebSocketSharp
     /// <paramref name="fileInfo"/> is <see langword="null"/>.
     /// </exception>
     /// <exception cref="InvalidOperationException">
-    /// The Send method is not available when the current state of
-    /// the interface is not Open.
+    /// This method is not available when the current state of the interface
+    /// is not Open.
     /// </exception>
     public void Send (FileInfo fileInfo)
     {
