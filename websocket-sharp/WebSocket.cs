@@ -3913,7 +3913,7 @@ namespace WebSocketSharp
     public void SendAsync (byte[] data, Action<bool> completed)
     {
       if (_readyState != WebSocketState.Open) {
-        var msg = "The SendAsync method is not available.";
+        var msg = "The current state of the interface is not Open.";
 
         throw new InvalidOperationException (msg);
       }
