@@ -4164,8 +4164,8 @@ namespace WebSocketSharp
     /// <paramref name="cookie"/> is <see langword="null"/>.
     /// </exception>
     /// <exception cref="InvalidOperationException">
-    /// The SetCookie method is not available when the current state of
-    /// the interface is neither New nor Closed.
+    /// This method is not available when the current state of the interface
+    /// is neither New nor Closed.
     /// </exception>
     public void SetCookie (Cookie cookie)
     {
